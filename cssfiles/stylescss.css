@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding:0;
+    }
+    .main{
+    
+    width: auto;
+    background: linear-gradient(to top, rgb(0, 0, 0)50%,rgba(0,0,0,)50%),url(Computer.jpg)
+    
+    }
+    
+    .logo{
+    
+    color: rgba(240, 205, 52, 0.938);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    
+    }
+    .menu{
+    
+    width: 400px;
+    float: left;
+    height: 70px;
+    font-size: larger;
+    }
+    
+    ul{
+    
+    float: left;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    }
+    
+    ul li{
+    
+        list-style: none;
+        margin: 70px;
+        margin: top 60px; 
+        font-size: 14px;
+    }
+    ul li{
+    text-decoration: none;
+    color: rgb(252, 248, 4);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    }
+    
+    ul li a:hover{
+    
+        color: rgba(252, 82, 4, 0.938);
+    }
+        
+    .search{
+    width: 330px;
+    float: left;
+    margin: 10px;
+    align-items: left;
+    }
+    .srch{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.938);
+    font-size: 16px;
+    padding: left 20px; ;
+    }
+    /*rgba(252, 82, 4, 0.938);*/
+    div.SAMPLE{
+    
+        background-color: rgba(31, 14, 1, 0.938);
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+        float: Right;   
+        padding-right: 100px;
+    }
+    div.a{
+    background-color: rgba(31, 14, 1, 0.938);
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    float: right;
+    text-align: left;
+    position: relative;
+    padding-right: 100px;
+    }
+    div.b{
+    background-color: rgba(31, 14, 1, 0.938);
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    float: right;
+    text-align: left;
+    padding-right: 150px;
+    position: relative;
+    }
+    
+    .content{
+    color: rgba(240, 205, 52, 0.938);
+    margin-left: 10px;
+    padding-right: 10%;
+    text-align: left
+    padding:left  
+    }
+    .menu{
+        padding-right: 100px;
+        align-content: center;
+        text-align: right;
+        position: relative;
+        font-size: larger;
+        font-style: italic;
+        font-optical-sizing: 100px;
+        color: rgba(175, 156, 146, 0.938)
+        
+    }
+    .about{
+    
+        color: black;
+    }
